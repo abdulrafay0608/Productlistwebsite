@@ -1,0 +1,78 @@
+.card {
+    height: 245px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid rgb(110, 243, 110);
+    margin: 5px;
+    padding: 5px;
+}
+
+img {
+    height: 150px;
+    width: 100%;
+}
+
+.chip {
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: lightblue;
+    cursor: pointer;
+    color: black;
+    margin-right: 12px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+
+.BtnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.topBtn {
+    border-radius: 30px;
+    height: 60px;
+    width: 120px;
+    margin: 10px;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+.topBtn:hover {
+    color: #fff;
+    background-color: green;
+}
+
+.inputContainer {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.searchInput {
+    height: 40px;
+    width: 30%;
+    padding-left: 20px;
+    /* color: black; */
+    /* border-radius: 10px; */
+    background-color: transparent;
+    /* border-color: green; */
+    border: 2px solid #fff;
+    border-bottom: 2px solid green !important;
+}
+
+/* .searchInput:hover { */
+    /* border: 2px solid #fff; */
+    /* border-bottom-color: 2px solid green; */
+/* } */
+
+.searchBtn {
+    height: 44px;
+    width: 80px;
+    color: #fff;
+    border-radius: 10px;
+    border: 10px;
+    background-color: green;
+    cursor: pointer;
+}
